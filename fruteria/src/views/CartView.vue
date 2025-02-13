@@ -7,7 +7,7 @@
       <div v-else class="card p-4 shadow-sm">
         <ul class="list-group">
           <li v-for="(cantidad, fruta) in frutasStore.carrito" :key="fruta" class="list-group-item d-flex justify-content-between align-items-center">
-            🍏 {{ fruta }} ({{ cantidad }})
+             {{ fruta }} ({{ cantidad }})
             <button class="btn btn-danger btn-sm" @click="frutasStore.quitarDelCarrito(fruta)">
               Quitar
             </button>

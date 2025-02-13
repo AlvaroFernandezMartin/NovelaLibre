@@ -2,8 +2,8 @@ import { defineStore } from 'pinia'
 
 export const useFrutasStore = defineStore('frutas', {
   state: () => ({
-    frutas: ['🍏 Manzana', ' 🍌 Plátano', '🟠 Naranja', 'Pera', 'Uva'],
-    carrito: {} as Record<string, number> // Objeto con frutas y cantidades
+    frutas: [' Manzana', '  Plátano', ' Naranja', 'Pera', 'Uva'],
+    carrito: {} as Record<string, number> 
   }),
 
   actions: {

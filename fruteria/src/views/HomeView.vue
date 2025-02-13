@@ -3,7 +3,7 @@
       <div class="card p-4 shadow-sm">
         <ul class="list-group">
           <li v-for="fruta in frutasStore.frutas" :key="fruta" class="list-group-item d-flex justify-content-between align-items-center">
-            🍏 {{ fruta }}
+             {{ fruta }}
             <button class="btn btn-success btn-sm" @click="frutasStore.agregarAlCarrito(fruta)">
               Agregar al carrito
             </button>
